@@ -35,6 +35,7 @@ public class TernaryTest {
 		Scanner scan; // ctrl + shift + o
 
 		int z;
+		int absZ;
 		
 		//2. 스캐너 및 변수 초기화
 		scan = new Scanner(System.in);
@@ -42,17 +43,9 @@ public class TernaryTest {
 		// 무엇을 입력할지 알려주는 메시지 출력
 		System.out.println("정수를 입력하세요.");
 		z = scan.nextInt();
-		
 		absZ = (z >= 0 ) ? z : -z;
 		System.out.printf("z=%d일 때, z의 절댓값은 %d%n", z, absZ);
 
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
