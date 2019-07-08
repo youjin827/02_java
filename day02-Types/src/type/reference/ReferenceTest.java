@@ -12,7 +12,7 @@ package type.reference;
 
 public class ReferenceTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// 1. 선언 : 타입이름 변수이름;
 		//    선언할 때, 타입이름 자리에 기본형 8가지가 
 		//	  아닌 이름이 오면 무조건 그 변수는 참조형
